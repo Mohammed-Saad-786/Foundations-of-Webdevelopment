@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        /* CSS: Styling the Webpage */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer button {
+            padding: 10px 20px;
+            background-color: #555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer button:hover {
+            background-color: #777;
+        }
+
+        /* Centering the image */
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi Everyone! My name is Mohammed Saad. I have developed this webpage as part of my internship at ApexPlanet Software Pvt Ltd.</p>
+        <p>This webpage includes headings, paragraphs, images, links, basic styling with colors, fonts, spacing, and a button that triggers an alert when clicked.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Here's the logo of the company:</p>
+        <img src="https://apexplanet.in/wp-content/uploads/2024/07/apexplanet-low-resolution-logo-color-on-transparent-background.png" alt="Image 1" class="center">
+    </section>
+
+    <footer>
+        <p>Contact me at <a href="mailto:555mohammedsaad@gmail.com">555mohammedsaad@gmail.com</a></p>
+        <button onclick="showAlert()">Click Me</button>
+    </footer>
+
+    <script>
+       
+        function showAlert() {
+           
+alert("Hello! Thanks for visiting my webpage.");
+        }
+    </script>
+</body>
+</html>
